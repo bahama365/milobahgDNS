@@ -1,0 +1,14 @@
+$TTL 86400
+@ IN SOA ns1.lab.com. admin.lab.com. (
+1 ;serial
+3600 ;refresh
+1800 ;retry
+604800 ;expire
+86400 ;minimum ttl
+)
+;Name Server Information
+@ IN NS ns1.lab.com.
+;Reverse lookup for name server
+152 IN PTR ns1.lab.com
+;A-Records
+101 IN PTR host1.lab.com

@@ -1,0 +1,15 @@
+$TTL 86400
+@ IN SOA ns1.lab.com. admin.lab.com. (
+1 ;serial
+3600 ;refresh
+1800 ;retry
+604800 ;expire
+86400 ;minimum ttl
+)
+;Name Server Information
+@ IN NS ns1.lab.com.
+;IP address of Name Server
+ns1 IN A 192.168.52.152
+;A-Records
+host1 IN A 192.168.52.101
+host2 IN A 192.168.52.102
