@@ -5,5 +5,5 @@ ADD named.conf /etc/named.conf
 ADD named/168.192.db /etc/named/168.192.db
 ADD named/lab.com.db /etc/named/lab.com.db
 RUN chown -R root:named /etc/named
-EXPOSE 53
+EXPOSE 53/udp
 CMD ["named", "-g", "-d", "0"]
