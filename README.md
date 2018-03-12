@@ -1,4 +1,4 @@
-# Docker image recursive and authorititive DNS 
+# Docker image recursive and authoritative DNS 
 
 Docker image for a recursive and authoritative DNS server, running bind. Edit named.conf and rebuild to yuor requried spec, then run with the following command:
 
